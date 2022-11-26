@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/diego95root/nuclei/v2/pkg/types"
 )
 
 // formatScreen formats the output for showing on screen.

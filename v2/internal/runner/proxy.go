@@ -12,7 +12,7 @@ import (
 
 	"github.com/projectdiscovery/fileutil"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/diego95root/nuclei/v2/pkg/types"
 )
 
 var proxyURLList []url.URL

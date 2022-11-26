@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/model"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/stringslice"
+	"github.com/diego95root/nuclei/v2/pkg/model"
+	"github.com/diego95root/nuclei/v2/pkg/model/types/severity"
+	"github.com/diego95root/nuclei/v2/pkg/model/types/stringslice"
 )
 
 func TestToMarkdownTableString(t *testing.T) {

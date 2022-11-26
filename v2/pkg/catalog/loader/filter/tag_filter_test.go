@@ -3,15 +3,15 @@ package filter
 import (
 	"testing"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/dns"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/http"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/dns"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/http"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/stringslice"
-	"github.com/projectdiscovery/nuclei/v2/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v2/pkg/templates/types"
+	"github.com/diego95root/nuclei/v2/pkg/model/types/severity"
+	"github.com/diego95root/nuclei/v2/pkg/model/types/stringslice"
+	"github.com/diego95root/nuclei/v2/pkg/templates"
+	"github.com/diego95root/nuclei/v2/pkg/templates/types"
 )
 
 func TestTagBasedFilter(t *testing.T) {

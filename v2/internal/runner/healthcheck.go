@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/projectdiscovery/fileutil"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/diego95root/nuclei/v2/pkg/catalog/config"
+	"github.com/diego95root/nuclei/v2/pkg/types"
 )
 
 // DoHealthCheck performs self-diagnostic checks

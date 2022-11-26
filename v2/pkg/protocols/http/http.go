@@ -9,11 +9,11 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/projectdiscovery/fileutil"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/http/httpclientpool"
+	"github.com/diego95root/nuclei/v2/pkg/operators"
+	"github.com/diego95root/nuclei/v2/pkg/protocols"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/expressions"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/generators"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/http/httpclientpool"
 	"github.com/projectdiscovery/rawhttp"
 	"github.com/projectdiscovery/retryablehttp-go"
 )

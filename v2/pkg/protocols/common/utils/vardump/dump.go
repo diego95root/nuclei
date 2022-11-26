@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/diego95root/nuclei/v2/pkg/types"
 )
 
 // DumpVariables writes the truncated dump of variables to a string

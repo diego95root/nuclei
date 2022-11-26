@@ -10,10 +10,10 @@ import (
 	"github.com/owenrumney/go-sarif/v2/sarif"
 	"github.com/pkg/errors"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/format"
-	"github.com/projectdiscovery/nuclei/v2/pkg/utils"
+	"github.com/diego95root/nuclei/v2/pkg/model/types/severity"
+	"github.com/diego95root/nuclei/v2/pkg/output"
+	"github.com/diego95root/nuclei/v2/pkg/reporting/format"
+	"github.com/diego95root/nuclei/v2/pkg/utils"
 )
 
 // Exporter is an exporter for nuclei sarif output format.

@@ -21,12 +21,12 @@ import (
 	"github.com/projectdiscovery/fileutil"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/interactsh/pkg/server"
-	"github.com/projectdiscovery/nuclei/v2/internal/colorizer"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
-	"github.com/projectdiscovery/nuclei/v2/pkg/utils"
+	"github.com/diego95root/nuclei/v2/internal/colorizer"
+	"github.com/diego95root/nuclei/v2/pkg/model"
+	"github.com/diego95root/nuclei/v2/pkg/model/types/severity"
+	"github.com/diego95root/nuclei/v2/pkg/operators"
+	"github.com/diego95root/nuclei/v2/pkg/types"
+	"github.com/diego95root/nuclei/v2/pkg/utils"
 )
 
 // Writer is an interface which writes output to somewhere for nuclei events.

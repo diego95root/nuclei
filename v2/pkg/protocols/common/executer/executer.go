@@ -7,11 +7,11 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/pkg/operators/common/dsl"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/contextargs"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/helpers/writer"
+	"github.com/diego95root/nuclei/v2/pkg/operators/common/dsl"
+	"github.com/diego95root/nuclei/v2/pkg/output"
+	"github.com/diego95root/nuclei/v2/pkg/protocols"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/contextargs"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/helpers/writer"
 )
 
 // Executer executes a group of requests for a protocol

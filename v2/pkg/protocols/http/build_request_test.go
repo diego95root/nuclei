@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/model"
-	"github.com/projectdiscovery/nuclei/v2/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/interactsh"
-	"github.com/projectdiscovery/nuclei/v2/pkg/testutils"
+	"github.com/diego95root/nuclei/v2/pkg/model"
+	"github.com/diego95root/nuclei/v2/pkg/model/types/severity"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/generators"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/interactsh"
+	"github.com/diego95root/nuclei/v2/pkg/testutils"
 )
 
 func TestBaseURLWithTemplatePrefs(t *testing.T) {

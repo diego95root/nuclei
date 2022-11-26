@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/diego95root/nuclei/v2/pkg/protocols"
+	"github.com/diego95root/nuclei/v2/pkg/types"
 )
 
 // Engine is an executer for running Nuclei Templates/Workflows.

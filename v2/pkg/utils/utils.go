@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog"
+	"github.com/diego95root/nuclei/v2/pkg/catalog"
 )
 
 func IsBlank(value string) bool {

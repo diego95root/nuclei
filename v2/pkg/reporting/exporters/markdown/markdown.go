@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/format"
+	"github.com/diego95root/nuclei/v2/pkg/output"
+	"github.com/diego95root/nuclei/v2/pkg/reporting/format"
 	"github.com/projectdiscovery/stringsutil"
 )
 

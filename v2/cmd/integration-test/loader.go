@@ -9,7 +9,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/projectdiscovery/nuclei/v2/pkg/testutils"
+	"github.com/diego95root/nuclei/v2/pkg/testutils"
 )
 
 var loaderTestcases = map[string]testutils.TestCase{

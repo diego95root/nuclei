@@ -9,10 +9,10 @@ import (
 	"github.com/andygrunwald/go-jira"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting/format"
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/diego95root/nuclei/v2/pkg/catalog/config"
+	"github.com/diego95root/nuclei/v2/pkg/output"
+	"github.com/diego95root/nuclei/v2/pkg/reporting/format"
+	"github.com/diego95root/nuclei/v2/pkg/types"
 	"github.com/projectdiscovery/retryablehttp-go"
 )
 
