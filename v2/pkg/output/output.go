@@ -9,6 +9,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+	"bytes"
+	"crypto/sha1"
+	"encoding/hex"
 
 	"github.com/pkg/errors"
 
@@ -292,9 +295,19 @@ func (w *StandardWriter) WriteFailure(event InternalEvent) error {
 	}
 	return w.Write(data)
 }
+func hash(data string) string {
+	h := sha1.New()
+	h.Write([]byte(data))
+	return hex.EncodeToString(h.Sum(nil))
+}
 func sanitizeFileName(fileName string) string {
 	fileName = strings.ReplaceAll(fileName, "http:", "")
 	fileName = strings.ReplaceAll(fileName, "https:", "")
+	fileName = strings.ReplaceAll(fileName, "//", "_")
+	if len(fileName) > 250 {
+		fileNameParts := strings.Split(fileName, "/")
+		fileNameParts = fmt.Sprintf("%s_%s", fileNameParts[0], hash(fileNameParts[1]))
+	}
 	fileName = strings.ReplaceAll(fileName, "/", "_")
 	fileName = strings.ReplaceAll(fileName, "\\", "_")
 	fileName = strings.ReplaceAll(fileName, "-", "_")
