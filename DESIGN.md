@@ -189,7 +189,7 @@ Polling for interactions and server registration only starts when a template use
 
 Next we arrive in the `RunEnumeration` function of the runner.
 
-`HostErrorsCache` is initialised which is used throughout the run of Nuclei enumeration to keep track of errors per host and skip further requests if the errors are greater than the provided threshold. The functionality for the error tracking cache is defined in [hosterrorscache.go](https://github.com/projectdiscovery/nuclei/blob/master/v2/pkg/protocols/common/hosterrorscache/hosterrorscache.go) and is pretty simplistic in nature.
+`HostErrorsCache` is initialised which is used throughout the run of Nuclei enumeration to keep track of errors per host and skip further requests if the errors are greater than the provided threshold. The functionality for the error tracking cache is defined in [hosterrorscache.go](https://github.com/diego95root/nuclei/blob/master/v2/pkg/protocols/common/hosterrorscache/hosterrorscache.go) and is pretty simplistic in nature.
 
 Next the `WorkflowLoader` is initialised which used to load workflows. It exists in `v2/pkg/parsers/workflow_loader.go`
 
@@ -278,21 +278,21 @@ import (
 	"go.uber.org/ratelimit"
 
 	"github.com/projectdiscovery/goflags"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/disk"
-	"github.com/projectdiscovery/nuclei/v2/pkg/catalog/loader"
-	"github.com/projectdiscovery/nuclei/v2/pkg/core"
-	"github.com/projectdiscovery/nuclei/v2/pkg/core/inputs"
-	"github.com/projectdiscovery/nuclei/v2/pkg/output"
-	"github.com/projectdiscovery/nuclei/v2/pkg/parsers"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/hosterrorscache"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/interactsh"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/protocolinit"
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/common/protocolstate"
-	"github.com/projectdiscovery/nuclei/v2/pkg/reporting"
-	"github.com/projectdiscovery/nuclei/v2/pkg/testutils"
-	"github.com/projectdiscovery/nuclei/v2/pkg/types"
+	"github.com/diego95root/nuclei/v2/pkg/catalog/config"
+	"github.com/diego95root/nuclei/v2/pkg/catalog/disk"
+	"github.com/diego95root/nuclei/v2/pkg/catalog/loader"
+	"github.com/diego95root/nuclei/v2/pkg/core"
+	"github.com/diego95root/nuclei/v2/pkg/core/inputs"
+	"github.com/diego95root/nuclei/v2/pkg/output"
+	"github.com/diego95root/nuclei/v2/pkg/parsers"
+	"github.com/diego95root/nuclei/v2/pkg/protocols"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/hosterrorscache"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/interactsh"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/protocolinit"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/common/protocolstate"
+	"github.com/diego95root/nuclei/v2/pkg/reporting"
+	"github.com/diego95root/nuclei/v2/pkg/testutils"
+	"github.com/diego95root/nuclei/v2/pkg/types"
 )
 
 func main() {
@@ -495,7 +495,7 @@ Step by step description of how to add a new protocol to Nuclei -
 
 import (
 	...
-	"github.com/projectdiscovery/nuclei/v2/pkg/protocols/others/websocket"
+	"github.com/diego95root/nuclei/v2/pkg/protocols/others/websocket"
 )
 
 // Template is a YAML input file which defines all the requests and

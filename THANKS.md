@@ -3,7 +3,7 @@
 
 Many people have contributed to **nuclei** making it a wonderful tool either by making a pull request fixing some stuff. Here, we recognize these persons and thank them. 
 
-- All the contributors at [CONTRIBUTORS](https://github.com/projectdiscovery/nuclei/graphs/contributors) who made Nuclei what it is.
+- All the contributors at [CONTRIBUTORS](https://github.com/diego95root/nuclei/graphs/contributors) who made Nuclei what it is.
 
 We'd like to thank some additional amazing people, who contributed a lot in nuclei's journey - 
 
