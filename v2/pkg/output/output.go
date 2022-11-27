@@ -305,7 +305,8 @@ func sanitizeFileName(fileName string) string {
 	fileName = strings.ReplaceAll(fileName, "//", "_")
 	if len(fileName) > 250 {
 		fileNameParts := strings.Split(fileName, "/")
-		fileNameParts = fmt.Sprintf("%s_%s", fileNameParts[0], hash(fileNameParts[1]))
+		extraHash := hash(strings.Join(fileNameParts[1:], ","))
+		fileName = fmt.Sprintf("%s_%s", fileNameParts[0], extraHash)
 	}
 	fileName = strings.ReplaceAll(fileName, "/", "_")
 	fileName = strings.ReplaceAll(fileName, "\\", "_")
