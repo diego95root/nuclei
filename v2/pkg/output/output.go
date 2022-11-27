@@ -9,7 +9,6 @@ import (
 	"strings"
 	"sync"
 	"time"
-	"bytes"
 	"crypto/sha1"
 	"encoding/hex"
 
